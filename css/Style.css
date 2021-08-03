@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #0A143A;
@@ -188,8 +188,9 @@
 .main-single {
     display: flex;
 }
-.content{
-    max-width:460px;
+.content {
+    max-width: 460px;
+    max-height: 660px;
 }
 .swiper-container {
     width: 100%;
@@ -217,7 +218,7 @@
 .mySwiper {
     height: 20%;
     height: 53px;
-    width: 360px; 
+    max-width: 360px; 
     margin-left: 0;
     box-sizing: border-box;
     padding: 10px 0;
@@ -249,13 +250,13 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    margin-top:0px;
 }
 .autor-info{
     height:55px;
 }
-.author{
-    margin-left:30px;
+.author {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .author-name {
     font-weight: bold;
@@ -482,5 +483,29 @@
     .card-image {
         width: 106%;
         margin-right: 7px;
+    }
+}
+/*карта*/
+@media(max-width: 1090px) {
+    body {
+        background-color:aqua;
+    }
+    .page-content {
+        display: block;
+    }
+}@media(max-width: 826px) {
+    body {
+        background-color:aquamarine;
+    }
+    .main-single {
+        display: block;
+    }
+    .sidebar{
+        margin-top:148px;
+    }
+}
+@media(max-width: 375px) {
+    .swiper-container {
+        margin-right:5px;
     }
 }
