@@ -1,4 +1,4 @@
-body {
+﻿body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #0A143A;
@@ -487,16 +487,16 @@ body {
 }
 /*карта*/
 @media(max-width: 1090px) {
-    body {
+    /*body {
         background-color:aqua;
-    }
+    }*/
     .page-content {
         display: block;
     }
 }@media(max-width: 826px) {
-    body {
+    /*body {
         background-color:aquamarine;
-    }
+    }*/
     .main-single {
         display: block;
     }
